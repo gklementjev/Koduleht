@@ -1,0 +1,85 @@
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Tume taust */
+    padding: 10px;
+    border-radius: 5px;
+}
+.carousel-caption h5, 
+.carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.carousel-item img {
+    filter: brightness(70%);
+}
+
+body {
+    background-image: url("../images/webb.png"); /* Taustapilt */
+    background-repeat: repeat; /* Muster kordub üle ekraani */
+    background-size: contain; /* Pilt skaleeritakse nii, et see mahub ekraanile */
+}
+
+/* Üldine stiil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Kogu konteiner */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Pealkirja stiil */
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+/* Blogide nimekiri */
+.blog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-list li {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Postituste pealkirjad */
+.blog-list h2 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.blog-list h2 a {
+    text-decoration: none;
+    color: inherit; /* Tagab, et link on sama värvi kui pealkiri */
+}
+
+.blog-list h2 a:hover {
+    text-decoration: underline;
+}
+
+/* Lühike kirjeldus */
+.blog-excerpt {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* "Loe rohkem" link */
+.read-more {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
